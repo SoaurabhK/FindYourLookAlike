@@ -1,0 +1,4 @@
+github "Skyscanner/SkyFloatingLabelTextField" "v3.4.0"
+github "rs/SDWebImage" "4.2.3"
+github "shima11/FlexiblePageControl" "1.0.5"
+github "zaubara/SwiftyJSON" "14.2.0"

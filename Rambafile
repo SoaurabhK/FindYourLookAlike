@@ -1,0 +1,31 @@
+### Headers settings
+company: Hive
+
+### Xcode project settings
+project_name: hive-celebrity-ios
+xcodeproj_path: HiveCelebrity.xcodeproj
+prefix:
+
+### Code generation settings section
+# The main project target name
+project_target: HiveCelebrity
+
+### Tests generation settings section
+# The tests target name
+test_target:
+
+### Dependencies settings section
+
+cartfile_path: 
+project_file_path: HiveCelebrity/Modules
+project_group_path: HiveCelebrity/Modules
+test_file_path:
+test_group_path:
+
+### Templates
+templates:
+- {name: rviper_controller}
+- {name: swifty_viper}
+#- {name: local_template_name, local: 'absolute/file/path'}
+#- {name: remote_template_name, git: 'https://github.com/igrekde/remote_template'}
+#- {name: catalog_template_name}

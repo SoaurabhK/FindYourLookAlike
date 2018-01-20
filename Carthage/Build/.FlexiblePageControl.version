@@ -1,0 +1,9 @@
+{
+  "commitish" : "1.0.5",
+  "iOS" : [
+    {
+      "name" : "FlexiblePageControl",
+      "hash" : "b809c0ea0d1a1e28416bf11666028697d6f81edf61144dcb6169490a2d6b6f29"
+    }
+  ]
+}

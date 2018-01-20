@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboardingBg" translatesAutoresizingMaskIntoConstraints="NO" id="gyt-Rb-908">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboardingLogo" translatesAutoresizingMaskIntoConstraints="NO" id="IxR-No-LlR">
+                                <rect key="frame" x="131.5" y="116" width="113" height="109"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="113" id="Vlm-I9-dAv"/>
+                                    <constraint firstAttribute="height" constant="109" id="xP8-sv-q6g"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gyt-Rb-908" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="996-Sg-ey6"/>
+                            <constraint firstItem="IxR-No-LlR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="biE-iY-aSv"/>
+                            <constraint firstItem="gyt-Rb-908" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="e8w-4e-bC0"/>
+                            <constraint firstItem="gyt-Rb-908" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="n5o-k7-h0l"/>
+                            <constraint firstItem="gyt-Rb-908" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="tEz-o0-zgh"/>
+                            <constraint firstItem="IxR-No-LlR" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="116" id="znu-5a-Fwv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="onboardingBg" width="187" height="333"/>
+        <image name="onboardingLogo" width="113" height="109"/>
+    </resources>
+</document>

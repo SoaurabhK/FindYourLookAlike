@@ -1,0 +1,7 @@
+github "zaubara/SwiftyJSON"
+github "rs/SDWebImage"
+<<<<<<< HEAD
+github "shima11/FlexiblePageControl"
+=======
+github "Skyscanner/SkyFloatingLabelTextField"
+>>>>>>> feat(carthage): add floating label textfield
